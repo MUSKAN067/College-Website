@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="college.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+     
+    </section>
+
+    <!-----------courses-------------->
+
+    <section class="course">
+        <h1>Courses  We  Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing .</p>
+
+        <div class="row">
+            <div class="course-col">
+               <h3>Diploma</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Est doloribus doloremque enim voluptas maiores. Debitis, 
+                dolores, doloribus ipsam nam facilis repellat quisquam quia,
+                hic sunt quae commodi iste illo in. Perspiciatis, dolor quod 
+                repellat eveniet, aperiam et, tempore animi fugit deserunt 
+                sint hic ipsum beatae? Aliquid ducimus nobis quo ullam?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                 Est doloribus doloremque enim voluptas maiores. Debitis, 
+                 dolores, doloribus ipsam nam facilis repellat quisquam quia,
+                 hic sunt quae commodi iste illo in. Perspiciatis, dolor quod 
+                 repellat eveniet, aperiam et, tempore animi fugit deserunt 
+                 sint hic ipsum beatae? Aliquid ducimus nobis quo ullam?</p>
+             </div>
+             <div class="course-col">
+                <h3>Post  Graduate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                 Est doloribus doloremque enim voluptas maiores. Debitis, 
+                 dolores, doloribus ipsam nam facilis repellat quisquam quia,
+                 hic sunt quae commodi iste illo in. Perspiciatis, dolor quod 
+                 repellat eveniet, aperiam et, tempore animi fugit deserunt 
+                 sint hic ipsum beatae? Aliquid ducimus nobis quo ullam?</p>
+             </div>
+        </div>
+    </section>
+
+ <!-----------facility-------------->
+
+ <section class="facility">
+    <h1> Our Facilities </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facility-col">
+            <img src="atm.jpg" >
+            <h3>BANK OF INDIA</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+               Ipsum provident perspiciatis alias fugit debitis dolore!
+               Mollitia at voluptas vel magnam?</P>
+        </div>
+        <div class="facility-col">
+           <img src="hostel.jpg" >
+           <h3>CAMPUS HOSTEL</h3>
+           <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Ipsum provident perspiciatis alias fugit debitis dolore!
+              Mollitia at voluptas vel magnam?</P>
+       </div>
+       <div class="facility-col">
+           <img src="trans.jpg" >
+           <h3>TRANSPORT FACILITY</h3>
+           <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Ipsum provident perspiciatis alias fugit debitis dolore!
+              Mollitia at voluptas vel magnam?</P>
+       </div>
+    </div>
+
+</section>
+
+
+  
+
+
+
+  <!-----------footer-------------->
+
+<section class="footer">
+    <h4> About Us </h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Amet veniam incidunt, saepe distinctio accusamus doloremque
+        
+        <br>
+         Totam pariatur nostrum,officiis molestias facilis enim soluta quas sint aspernatur in. 
+        Et nesciunt eaque alias, illum possimus saepe iste in cum esse quasi 
+        
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+
+    </div>
+
+    <p>Made with <i class="fa fa-heart-o" ></i>  Efforts</p>
+
+</section>
+
+
+
+    <!-----------JavaScript for Toggle Menu--------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks") ;
+
+        function showMenu(){
+            navLinks.style.right = "0" ;
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px" ;
+        }
+
+    </script>
+</body>
+</html>
